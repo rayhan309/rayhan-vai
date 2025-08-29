@@ -1,0 +1,93 @@
+.open-sans-normal {
+          font-family: "Open Sans", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: weight;
+          font-style: normal;
+          font-variation-settings:
+                    "wdth" 100;
+}
+
+/* header styles */
+
+.header-1{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+   
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px 0 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-taitle{
+    color: #FD6E0A;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+  margin-right: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    align-items: center;
+
+    
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+
+}
+.btn-piraymary{
+    background-color: #FD6E0A;
+    color: honeydew;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.btn-2{
+    padding: 15px 40px;
+}
+.btn-3{
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+/* banner style */
+
+.banner-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+}
+.higth-1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.higth-2{
+    font-size: 85px;
+    font-weight: 700;
+}
+.p-1{
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+}
