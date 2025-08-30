@@ -187,3 +187,31 @@ main{
 .mama{
     color: #D1D1D1;
 }
+/* footer styles */
+footer
+{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    
+    gap: 100px;
+    margin: 130px 230px;
+}
+.icons a img{
+    margin-top: 30px;
+    padding: 18px;
+}
+.div-1{
+    width: 50%;
+} 
+.btn-4{
+    margin-top: 30px;
+}
+
+footer input[type="text"], input[type="email"], footer textarea{
+    display: block;
+    padding: 18px 349px 18px 30px;
+    border-radius: 2px;
+    border: navajowhite;
+}
