@@ -215,3 +215,38 @@ footer input[type="text"], input[type="email"], footer textarea{
     border-radius: 2px;
     border: navajowhite;
 }
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    .resume-container,
+     .rayhan-container,
+     .footer-container,
+     .about-container,
+     .div-section, 
+     nav,
+     .div-section
+     {
+        flex-direction: column;
+    }
+    .footer-container{
+        margin: 5px;
+        gap: 5px;
+    }
+    footer input[type="text"], input[type="email"], footer textarea{
+        padding: 18px 200px 18px 30px;
+    }
+    .header-1{
+        background-image: none;
+    }
+    .header-1 img{
+        width: 100%;
+    }
+    .div-section{
+        margin: 5px;
+    }
+    
+}
